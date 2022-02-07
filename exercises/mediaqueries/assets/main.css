@@ -1,0 +1,35 @@
+
+body {
+  background-color:  #FF7272;
+  font-family:  monospace;
+  padding: 50px;
+}
+
+ h1, h2 {
+    font-size: 70 px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+.container {
+  max-width: 700 px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 20 px;
+}
+
+@media (max-width: 650px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  h1, h2 {
+    font-size: 36 px;
+  }
+}
