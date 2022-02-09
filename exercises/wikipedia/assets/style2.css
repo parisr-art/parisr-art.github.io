@@ -1,0 +1,62 @@
+body {
+  background-color: #01011d;
+  color: white;
+  font-family: unset;
+  text-align: center;
+  padding: 50px;
+}
+
+img {
+  max-width: 70%;
+}
+
+.title {
+  font-size: 100px;
+  color: #098c86;
+}
+
+.intro {
+  color: #007f82;
+}
+
+.subheading {
+  color: #8d4841;
+}
+
+.explanation1 {
+  color: #716885;
+}
+
+.explanation2 {
+  color: #3b517a;
+}
+
+.explanation3 {
+  color: #73494d;
+}
+
+.link {
+  font-size: 20px;
+}
+
+.container {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-col: white;
+    color: #01011d;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:10px;
+  min-height: 200px;
+}
+
+
+

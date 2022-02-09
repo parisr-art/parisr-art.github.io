@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  background-color: white;
+  width:100vw;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 50vw;
+  height: 50vh;
+}
+
+
+.item1 {
+  background-color:red;
+}
+
+.item2 {
+  background-color:orange;
+}
+
+.item3 {
+  background-color:yellow;
+}
+
+.item4 {
+  background-color:green;
+}
+
+.item5 {
+  background-color:blue;
+}
+
+.item6 {
+  background-color:purple;
+}

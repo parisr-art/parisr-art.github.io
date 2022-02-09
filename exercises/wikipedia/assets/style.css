@@ -1,12 +1,7 @@
-body {
-  background-color: #01011d;
-  color: white;
-  font-family: initial;
-  text-align: center;
-  padding: 50px;
+img {
+  max-width: 40%;
 }
 
-
-img {
-  max-width: 60%;
+.link {
+  color: black;
 }
