@@ -1,4 +1,50 @@
-.container {
+body {
+  cursor: url("assets/paintbrushicon.png"), auto;
+}
+
+.mainheader {
+  font-size: 100px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.subtitle{ 
+  color: black;
+  font-style: italic;
+  font-size: 30px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section1 {
+  background-color: black;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.primarycolors {
+  display: flex;
+  background-color: white;
+  width:100vw;
+  flex-wrap: wrap;
+}
+
+.section2 {
+  background-color: black;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.secondarycolors {
   display: flex;
   background-color: white;
   width:100vw;
@@ -6,31 +52,108 @@
 }
 
 .item {
-  width: 50vw;
-  height: 50vh;
+  width: 33vw;
+  height: 100vh;
 }
-
 
 .item1 {
   background-color:red;
 }
 
 .item2 {
-  background-color:orange;
+  background-color: yellow;
 }
 
 .item3 {
-  background-color:yellow;
+  background-color: blue;
 }
 
 .item4 {
-  background-color:green;
+  background-color: green;
 }
 
 .item5 {
-  background-color:blue;
+  background-color: purple;
 }
 
 .item6 {
-  background-color:purple;
+  background-color: orange;
 }
+
+.item4:hover {
+  background-color: yellow;
+}
+
+.item5:hover {
+  background-color: blue;
+}
+
+.item6:hover {
+  background-color: red ;
+}
+
+.box {
+  width: 99vw;
+  height: 50vh;
+}
+
+.section3 {
+  background-color: black;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.box1 {
+  background-color: red;
+  transition: background-color 2s ease-out 100ms;
+}
+
+.box1:hover {
+  background-color: #f9c2c7 ;
+}
+
+.section4 {
+  background-color: black;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.box2 {
+  background-color: red;
+  transition: background-color 2s ease-out 100ms;
+}
+
+.box2:hover {
+  background-color: #500f15 ;
+}
+
+.section5 {
+  background-color: black;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.box3 {
+  background-color: red;
+  transition: background-color 2s ease-out 100ms;
+}
+
+.box3:hover {
+  background-color: #77464c;
+}
+
+
+
+
+
+
+  
