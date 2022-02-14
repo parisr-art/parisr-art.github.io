@@ -81,15 +81,60 @@ body {
 }
 
 .item4:hover {
-  background-color: yellow;
+  animation-name: spincolor;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  color: green;
+}
+@keyframes spincolor {
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
 }
 
 .item5:hover {
-  background-color: blue;
+  animation-name: spincolor2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  color: purple;
+}
+@keyframes spincolor2 {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: blue;
+  }
 }
 
 .item6:hover {
-  background-color: red ;
+  animation-name: spincolor3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  color: orange;
+}
+@keyframes spincolor3 {
+  0% {
+    background-color: red
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: red;
+  }
 }
 
 .box {
