@@ -82,7 +82,7 @@ body {
 
 .item4:hover {
   animation-name: spincolor;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   color: green;
@@ -101,7 +101,7 @@ body {
 
 .item5:hover {
   animation-name: spincolor2;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   color: purple;
@@ -120,7 +120,7 @@ body {
 
 .item6:hover {
   animation-name: spincolor3;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   color: orange;
