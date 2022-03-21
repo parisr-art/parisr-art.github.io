@@ -40,7 +40,7 @@ header {
 }
 
 .container_solid .title_wrapper h1 {
-  background: url(file:///Users/parisrosen/Documents/GitHub/parisr-art.github.io/projects/fanpage/assets/starrynight.jpg);
+  background: url(file:///Users/parisrosen/Documents/GitHub/parisr-art.github.io/projects/fanpage/assets/starrynight2.jpg);
   background-size: 100vw auto;
   background-position: center;
   text-fill-color: transparent;
@@ -51,7 +51,7 @@ header {
 }
 
 .container_image {
-  background-image: url(file:///Users/parisrosen/Documents/GitHub/parisr-art.github.io/projects/fanpage/assets/starrynight.jpg);
+  background-image: url(file:///Users/parisrosen/Documents/GitHub/parisr-art.github.io/projects/fanpage/assets/starrynight2.jpg);
   background-size:100vw auto;
   background-position: center;
   background-attachment: fixed;
