@@ -1,0 +1,45 @@
+#tire {
+	height: 400px;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: initial;
+  height: 100vh;
+}
+
+
+
+@keyframes tireSpin {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes tireMove {
+  0% {
+    transform: translatex(0px);
+  }
+  100% {
+    transform: translateX(800px);
+  }
+}
+
+#tire {
+	animation: tireSpin 5 s ease infinite, tireMove 5 s ease infinite;
+}
+
+#tire:hover {
+  animation-play-state: paused;
+}
+
+

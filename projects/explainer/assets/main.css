@@ -1,5 +1,5 @@
 body {
-  cursor: url("assets/paintbrushicon.png"), auto;
+  cursor: url("paintbrushicon.png"), auto;
 }
 
 .mainheader {
@@ -26,6 +26,10 @@ body {
   text-align: center;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.h3 {
+  font-style: italic;
 }
 
 .primarycolors {
