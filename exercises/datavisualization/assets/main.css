@@ -1,0 +1,56 @@
+body {
+  background-color:  #a7cefa
+;
+  margin: 0;
+  padding: 20px;
+}
+
+.garden {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.plane {
+  opacity: .5;
+  mix-blend-mode: color-burn;
+  color: #ffffff;
+  font-size: 36px;
+  font-family: arial;
+  border-radius: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 800 px;
+  position: absolute;
+  animation: plane1 1s;
+}
+
+.plane1 {
+    background-color: #63adff;
+}
+
+@keyframes plane1 {
+
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 500px;
+  }
+
+}
+
+
+.plane2 {
+  background-color: #057bff;
+}
+
+.plane3 {
+  background-color: #045bbd;
+}
+
+.plane4 {
+  background-color: #034187;
+}
