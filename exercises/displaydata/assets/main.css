@@ -1,0 +1,49 @@
+
+body {
+  background-color: yellow;
+  margin: 0;
+}
+
+.day-container {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  /*height:  50vh;*/
+}
+
+.day {
+  font-size: 50px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  color: black;
+}
+
+.day:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.happiness-button {
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
+  max-width: 200px;
+  text-align: center;
+  font-family: arial;
+  font-size: 20px;
+  position: fixed;
+  top: -20px;
+  right: 50px;
+  padding: 50px;
+  transition: background-color 400ms ease;
+}
+
+.happiness-button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.sorted {
+  background-color: red;
+}
