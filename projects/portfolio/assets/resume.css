@@ -1,6 +1,150 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	background: white: ;
+	color: black:
+}
+
+.container{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
 img {
 	width: 80%;
 	align-content: center;
 	justify-content: center;
 	padding-left: 100px;
+}
+
+h2{
+	color: gray;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 2;
+}
+
+.button-1 {
+	background-color: gray;
+	border-radius: 25name px;
+	border-style: none;
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	/*//font-family: ;*/
+	font-size: 14px;
+	font-weight: 500;
+	height: 40px;
+	line-height: 20px;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 10px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transform: color 100ms;
+	vertical-align: baseline;
+	user-select: none;
+}
+
+.button-1:hover,
+.button-1:focus {
+	background-color: black;
+}
+
+.button-2 {
+	background-color: gray;
+	border-radius: 25name px;
+	border-style: none;
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	/*//font-family: ;*/
+	font-size: 14px;
+	font-weight: 500;
+	height: 40px;
+	line-height: 20px;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 10px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transform: color 100ms;
+	vertical-align: baseline;
+	user-select: none;
+}
+
+.button-2:hover,
+.button-2:focus {
+	background-color: black;
+}
+
+.button-3 {
+	background-color: gray;
+	border-radius: 25name px;
+	border-style: none;
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	/*//font-family: ;*/
+	font-size: 14px;
+	font-weight: 500;
+	height: 40px;
+	line-height: 20px;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 10px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transform: color 100ms;
+	vertical-align: baseline;
+	user-select: none;
+}
+
+.button-3:hover,
+.button-3:focus {
+	background-color: black;
+}
+
+.button-4 {
+	background-color: gray;
+	border-radius: 25name px;
+	border-style: none;
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	/*//font-family: ;*/
+	font-size: 14px;
+	font-weight: 500;
+	height: 40px;
+	line-height: 20px;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 10px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transform: color 100ms;
+	vertical-align: baseline;
+	user-select: none;
+}
+
+.button-4:hover,
+.button-4:focus {
+	background-color: black;
 }
