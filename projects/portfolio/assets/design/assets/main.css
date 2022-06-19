@@ -21,7 +21,6 @@ h1{
 	color: gray;
 	font-size: 45px;
 	font-weight: 12;
-
 }
 
 h2{
@@ -39,7 +38,7 @@ h3{
 }
 
 .projects{
-	color: gray;
+	color: #ababab;
 	text-decoration: none;
 }
 
