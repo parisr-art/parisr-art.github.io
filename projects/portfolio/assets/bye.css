@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 250px;
+}
+
+h1{
+	color: gray;
+	font-size: 45px;
+	font-weight: 12;
+}
+
+h2{
+	color: lightgray;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 5;
+}
