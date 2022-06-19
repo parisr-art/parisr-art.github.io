@@ -59,6 +59,7 @@ h3{
 .legend1:hover h3.value1 {
   display: block;
   color: white;
+  cursor: pointer;
 }
 
 .value2 {
@@ -72,6 +73,7 @@ h3{
 .legend2:hover h3.value2 {
   display: block;
   color: white;
+  cursor: pointer;
 }
 
 .node:hover{
