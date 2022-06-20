@@ -172,3 +172,24 @@ h4{
 .button-4:focus {
 	background-color: black;
 }
+
+.astronaut {
+	align-items: center;
+	justify-content: center;
+}
+
+model-viewer {
+  width: 85vw;
+  height: 70vh;
+}
+
+.interaction-prompt {
+  font-size: 150px;
+}
+
+.Hotspot {
+	background-color: white;
+	color: black;
+	border: none;
+	border-radius: 30px;
+}

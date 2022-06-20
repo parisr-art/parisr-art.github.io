@@ -32,3 +32,24 @@ h2{
 	color: lightgray;
 	cursor: pointer;
 }
+
+.astronaut {
+	align-items: center;
+	justify-content: center;
+}
+
+model-viewer {
+  width: 80vw;
+  height: 80vh;
+}
+
+.interaction-prompt {
+  font-size: 150px;
+}
+
+.Hotspot {
+	background-color: yellow;
+	color: black;
+	border: none;
+	border-radius: 30px;
+}
