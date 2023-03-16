@@ -26,7 +26,7 @@ import java.util.List;
  * the whole game from start to finish without ever drawing anything
  * on a screen or instantiating a Java Swing object.
  * 
- * Run this file to see the main method play a game of TicTacToe,
+ * Run this file to see the main method play a game of 2048,
  * visualized with Strings printed to the console.
  */
 public class TwentyFortyEight {

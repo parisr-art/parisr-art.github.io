@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	font-family: sans-serif;
+	background-color: #f7e9e9;
 }
 
 /*.container {
@@ -81,7 +82,9 @@ body {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-	padding-top: 50px;
+	padding-top: 60px;
+	color: #706f6f;
+	font-family: 'Lato', sans-serif;
 }
 
 .button-wrapper {
@@ -89,37 +92,45 @@ body {
 }
 
 .name{
-	color: black;
+	color: #464a4e;
 	text-decoration: none;
+	font-size: 45px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 10px;
 }
 
 .name:hover {
-	color: gray;
+	color: #706f6f;
 	cursor: pointer;
 }
 
 
 img{
-	width: 15%;
-	height: 15%;
+	width: 14%;
+	height: 14%;
+	padding-top: 5px;
 }
 
 .button-1 {
-	background-color: black;
-	border-radius: 25name px;
+	background-color: #f7e9e9;
 	border-style: none;
 	box-sizing: border-box;
-	color: white;
+	color: #464a4e;
 	cursor: pointer;
 	display: inline-block;
-	/*//font-family: ;*/
-	font-size: 14px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 4px;
 	font-weight: 500;
-	height: 40px;
+/*	border-radius: 30px;*/
+	height: 60px;
+	width: 180px;
 	line-height: 20px;
 	list-style: none;
 	margin: 0;
-	outline: none;
+	outline: 100px;
+	border: 3px solid black;
+	border-color: #464a4e;
 	padding: 10px 16px;
 	position: relative;
 	text-align: center;
@@ -127,29 +138,35 @@ img{
 	transform: color 100ms;
 	vertical-align: baseline;
 	user-select: none;
+	margin-right: 10px;
 }
 
 .button-1:hover,
 .button-1:focus {
-	background-color: gray;
+	color: #f7e9e9;
+	background-color: #464a4e;
 }
 
 .button-2 {
-	background-color: black;
-	border-radius: 25name px;
+	background-color: #f7e9e9;
 	border-style: none;
 	box-sizing: border-box;
-	color: white;
+	color: #464a4e;
 	cursor: pointer;
 	display: inline-block;
-	/*//font-family: ;*/
-	font-size: 14px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 4px;
 	font-weight: 500;
-	height: 40px;
+/*	border-radius: 30px;*/
+	height: 60px;
+	width: 150px;
 	line-height: 20px;
 	list-style: none;
 	margin: 0;
-	outline: none;
+	outline: 100px;
+	border: 3px solid black;
+	border-color: #464a4e;
 	padding: 10px 16px;
 	position: relative;
 	text-align: center;
@@ -157,20 +174,25 @@ img{
 	transform: color 100ms;
 	vertical-align: baseline;
 	user-select: none;
+	margin-left: 10px;
 }
 
 .button-2:hover,
 .button-2:focus {
-	background-color: gray;
+	color: #f7e9e9;
+	background-color: #464a4e;
 }
 
 .email{
-	color: black;
+	color: #706f6f;
 	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .email:hover {
-	color: gray;
+	color: #464a4e;
 	cursor: pointer;
 }
 
