@@ -24,40 +24,42 @@ body {
 
 .drop-main {
     display: flex;
-    font-size: 7rem;
     margin: 0.5rem;
     justify-content: center;
-    font-family: "Russo One", sans-serif;
+    font-size: 8rem;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 24px;
+	font-weight: bold;
 }
 .d {
     opacity: 0;
     animation: drop 0.5s linear forwards;
-    color: gray;
+    color: #464a4e;
 }
 .e {
     opacity: 0;
     animation: drop 0.5s linear forwards 0.25s;
-    color: gray;
+    color: #464a4e;
 }
 .s {
     opacity: 0;
     animation: drop 0.5s linear forwards 0.5s;
-    color: gray;
+    color: #464a4e;
 }
 .i {
     opacity: 0;
     animation: drop 0.5s linear forwards 0.75s;
-    color: gray;
+    color: #464a4e;
 }
 .g {
     opacity: 0;
     animation: drop 0.5s linear forwards 1.0s;
-    color: gray;
+    color: #464a4e;
 }
 .n {
     opacity: 0;
     animation: drop 0.5s linear forwards 1.25s;
-    color: gray;
+    color: #464a4e;
 }
 @keyframes drop {
     0% {
@@ -83,13 +85,16 @@ body {
 }
 
 .jumpLinks a{
-	color: #ababab;
-	font-size: 25px;
+	color: gray;
+	font-size: 20px;
 	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-weight: bolder;
+	letter-spacing: 3px;
 }
 
 .jumpLinks a:hover{
-	color: gray;
+	color: #464a4e;
 }
 
 html{
@@ -97,45 +102,52 @@ html{
 }
 
 h1{
-	color: gray;
+	color: #464a4e;
 	font-size: 45px;
 	font-weight: 12;
 }
 
 h2{
-	color: gray;
-	font-family: sans-serif;
+	color: #706f6f;
+	font-family: "Lato", sans-serif;
 	font-size: 20px;
-	font-weight: 5;
+	font-weight: bold;
 	padding-top: 20px;
+	letter-spacing: 2px;
 }
 
 h3{
-	color: lightgray;
-	font-family: sans-serif;
-	font-size: 15px;
+	color: #464a4e;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
 	font-weight: 2;
+	letter-spacing: 10px;
+	font-weight: bold;
 }
 
 h4{
-	color: #ababab;
-	font-family: sans-serif;
-	font-size: 15px;
-	font-weight: 10;
+	color: #706f6f;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 24px;
 }
 
 .projects{
 	color: #ababab;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 17px;
+	font-family: "Lato", sans-serif;
 }
 
 .projects:hover{
-	color: gray ;
+	color: #706f6f ;
 }
 
 .img_item{
 	height: 500px;
+	padding-bottom: 15px;
+	padding-right: 30px;
 }
 
 .img_item2{
@@ -143,21 +155,23 @@ h4{
 }
 
 .button-1 {
-	background-color: gray;
-	border-radius: 25name px;
+	background-color: white;
 	border-style: none;
 	box-sizing: border-box;
-	color: white;
+	color: #706f6f;
 	cursor: pointer;
 	display: inline-block;
-	/*//font-family: ;*/
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 2px;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: bold;
 	height: 40px;
 	line-height: 20px;
 	list-style: none;
 	margin: 0;
-	outline: none;
+	outline: 100px;
+	border: 3px solid black;
+	border-color: #706f6f;
 	padding: 10px 16px;
 	position: relative;
 	text-align: center;
@@ -169,25 +183,28 @@ h4{
 
 .button-1:hover,
 .button-1:focus {
-	background-color: black;
+	color: white;
+	background-color: #706f6f;
 }
 
 .button-2 {
-	background-color: gray;
-	border-radius: 25name px;
+	background-color: white;
 	border-style: none;
 	box-sizing: border-box;
-	color: white;
+	color: #706f6f;
 	cursor: pointer;
 	display: inline-block;
-	/*//font-family: ;*/
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 2px;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: bold;
 	height: 40px;
 	line-height: 20px;
 	list-style: none;
 	margin: 0;
-	outline: none;
+	outline: 100px;
+	border: 3px solid black;
+	border-color: #706f6f;
 	padding: 10px 16px;
 	position: relative;
 	text-align: center;
@@ -199,25 +216,28 @@ h4{
 
 .button-2:hover,
 .button-2:focus {
-	background-color: black;
+	color: white;
+	background-color: #706f6f;
 }
 
 .button-3 {
-	background-color: gray;
-	border-radius: 25name px;
+	background-color: white;
 	border-style: none;
 	box-sizing: border-box;
-	color: white;
+	color: #706f6f;
 	cursor: pointer;
 	display: inline-block;
-	/*//font-family: ;*/
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 2px;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: bold;
 	height: 40px;
 	line-height: 20px;
 	list-style: none;
 	margin: 0;
-	outline: none;
+	outline: 100px;
+	border: 3px solid black;
+	border-color: #706f6f;
 	padding: 10px 16px;
 	position: relative;
 	text-align: center;
@@ -229,25 +249,28 @@ h4{
 
 .button-3:hover,
 .button-3:focus {
-	background-color: black;
+	color: white;
+	background-color: #706f6f;
 }
 
 .button-4 {
-	background-color: gray;
-	border-radius: 25name px;
+	background-color: white;
 	border-style: none;
 	box-sizing: border-box;
-	color: white;
+	color: #706f6f;
 	cursor: pointer;
 	display: inline-block;
-	/*//font-family: ;*/
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 2px;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: bold;
 	height: 40px;
 	line-height: 20px;
 	list-style: none;
 	margin: 0;
-	outline: none;
+	outline: 100px;
+	border: 3px solid black;
+	border-color: #706f6f;
 	padding: 10px 16px;
 	position: relative;
 	text-align: center;
@@ -259,7 +282,8 @@ h4{
 
 .button-4:hover,
 .button-4:focus {
-	background-color: black;
+	color: white;
+	background-color: #706f6f;
 }
 
 .bounce {
@@ -272,8 +296,8 @@ h4{
 }
 .bounce span:hover {
     display: inline-flex;
-    color: gray;
-    font-family: "Play", sans-serif;
+    color: lightgray;
+    font-family: "Raleway", sans-serif;
     animation: bounce 5s infinite;
 }
 @keyframes bounce:hover {
@@ -331,6 +355,7 @@ h4{
 
 .websites {
 	height: 400px;
+	padding-bottom: 10px;
 }
 
 .astronaut {
@@ -364,8 +389,8 @@ model-viewer {
   text-decoration: none;
   padding: 10px;
   font-family: sans-serif;
-  color: #fff;
-  background: lightgray;
+  color: white;
+  background: #706f6f;
   border-radius: 100px;
   height: 30px;
   width: 30px;
@@ -374,5 +399,5 @@ model-viewer {
 
 .top:hover{
 	background: white;
-	color: lightgray;
+	color: #706f6f;
 }
