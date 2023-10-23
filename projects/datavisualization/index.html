@@ -4,9 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="assets/main.css">
+  <link href="assets/favicon.png" rel="icon" type="image/x-icon">
   <title>Data Visualization Project</title>
 </head>
 <body>
+<div class="row">
+<div class="column">
 <h1>Comparing My Mood to How Much Time I Spend With Friends</h1>
 <h2>Legend</h2>
 <div class="legend1">
@@ -19,7 +22,7 @@
 </div>
 <br>
 <br>
-<div id="buttons">
+<div class="buttons">
   <button id="one">Total Time Spent With Friends</button>
   <button id="two">Time Spent With Friends Outside</button>
   <button id="three">Time Spent With Friends in a Social Setting</button>
@@ -27,9 +30,12 @@
 </div>
 <!-- <h4 class="summary">For my data visualization project, I decided to collect information comparing how many hours I spent with friends each day to my overall level of happiness at the end of the day. More specifically, I also collected information on how much time I spent with friends outside, how much time I spent with friends in a social gathering, and how much time I spent with close friends. I wanted to assess whether or not these factors had any additional impact on my level of happiness.<br><br>In the data visualization below, each circle represents a day. The size of the circle corresponds to how much time I spent engaging in the activity, and you can click the buttons to change which activity the size corresponds to. The opacity level of each circle corresponds to my level of happiness: a completely black circle indicates that I was extremely happy at the end of that day, while a circle with low opacity indicates that I was not in a great mood. As you can see, for all four categories, the larger circles (where I spent more time engaging in the corresponding activity) are typically darker than the smaller ones. This shows that spending time with friends, spending time with friends outside or in a social setting, and spending time with close friends all contribute to my level of happiness.</h4>
  -->
+</div>
+<div class="column">
  <div id="my_dataviz" class="info">
   </div>
 <script src="https://d3js.org/d3.v4.js"></script>
 <script src="assets/main.js" type="text/javascript"></script>
+</div>
 </body>
 </html>

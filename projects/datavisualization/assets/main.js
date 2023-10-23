@@ -1,10 +1,10 @@
-var width = 1200
-var height = 600
+var width = 800
+var height = 680
 
 var svg = d3.select("#my_dataviz")
   .append("svg")
-    .attr("width", 1200)
-    .attr("height", 600)
+    .attr("width", 800)
+    .attr("height", 680)
 
 let data = [
   {
@@ -149,7 +149,7 @@ var size = d3.scaleLinear()
   }
   var mousemove = function(d) {
     Tooltip
-      .html("<b>" + d.day + "</b>" + "<br>" + "Total Hours Spent With Friends: "+ d.withFriends + "<br>"+ "Hours Spent Outside: " + d.outside + "<br>" + "Hours Spent in a Social Setting: " + d.socialSetting + "<br>" + "Hours Spent With Close Friends: " + d.withCloseFriend)
+      .html("<b>" + d.day + "</b>" + "<br>" + "Total Hours Spent With Friends: "+ d.withFriends + "<br>"+ "Hours Spent Outside: " + d.outside + "<br>" + "Hours Spent in a Social Setting: " + d.socialSetting + "<br>" + "Hours Spent With Close Friends: " + d.withCloseFriend + "<br>"+ "Happiness Level: " + d.happinessLevel)
       .style("left", (d3.mouse(this)[0]+2) + "px")
       .style("top", (d3.mouse(this)[1]) + "px")
   }
@@ -179,9 +179,10 @@ var circle = node.append("circle")
      .attr("class", "node")
       .attr("r", function(d){return size(d.withFriends)})
       // .attr("fill", function(d){return color(0,0,0,d.happinessLevel)})
-      // .attr("opacity", function(d){return opacity(d.happinessLevel)})
+      // .attr("p", function(d){return opacity(d.happinessLevel)})
       // .style("opacity", d.happinessLevel)
-      .style("opacity", .4)
+      .attr("opacity", function (d) {return d.happinessLevel;})
+      //.style("opacity", .5)
       .attr("cx", width / 2)
       .attr("cy", height / 2)
       .on("mouseover", mouseover) 
@@ -196,6 +197,8 @@ var circle = node.append("circle")
 var click1 = function(d) {
     circle
        .attr("r", function(d){ return size(d.withFriends)})
+
+
   }
 
   var click2 = function(d) {
