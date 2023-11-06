@@ -28,7 +28,6 @@ body {
 
 h1{
 	color: black;
-/*  font-family: monospace;*/
 	font-size: 35px;
   text-align: center;
   line-height: 50px;
@@ -48,18 +47,6 @@ h3{
   font-weight: 3;
   text-align: center;
 }
-
-/*h4{
-  font-size: 12px;
-  font-weight: 2;
-  text-align: center;
-}
-
-#bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}*/
 
 .value1 {
   display: none;
@@ -88,12 +75,6 @@ h3{
   color: white;
   cursor: pointer;
 }
-
-/*.node:hover{
-  cursor: pointer;
-  stroke: white;
-  stroke-width: 5px;
-}*/
 
 
 button{ 
@@ -125,7 +106,6 @@ button{
 #four{
   margin-left: 185px;
 }
-
 
 button:hover{
 	cursor: pointer;
