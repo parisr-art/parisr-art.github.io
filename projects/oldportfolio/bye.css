@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 200px;
+}
+
+h1{
+	color: #464a4e;
+	font-size: 45px;
+	font-weight: 12;
+	font-family: "Lato", sans-serif;
+}
+
+h2{
+	color: #706f6f;
+	font-family: "Lato", sans-serif;
+	font-size: 30px;
+	font-weight: 5;
+}
+
+.email{
+	color: #464a4e;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: "Lato", sans-serif;
+}
+
+.email:hover {
+	color: gray;
+	cursor: pointer;
+}
